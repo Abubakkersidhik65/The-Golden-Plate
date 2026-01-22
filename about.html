@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - The Golden Plate</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">The Golden Plate</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="booking.html">Reservation</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Us</h2>
+    <div class="about-content">
+      <img src="{{ url_for('static', filename='images/logo.png.png') }}">
+     
+      <div class="about-text">
+        <p>
+          Welcome to <strong>The Golden Plate</strong>, where passion meets flavor. 
+          Our story began with a vision to serve high-quality food in a luxurious, welcoming atmosphere.
+          Whether you're here for a family dinner, a romantic date, or a business lunch, 
+          we promise a golden experience on every plate.
+        </p>
+        <p>
+          Our chefs bring creativity, tradition, and love to every dish. 
+          We source fresh, local ingredients and craft our menu with care.
+        </p>
+        <p>
+          Visit us and taste the elegance!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 The Golden Plate. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
